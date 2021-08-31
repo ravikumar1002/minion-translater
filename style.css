@@ -17,7 +17,7 @@ a {
 }
 
 body {
-  background-image: url("minion-background.jpg");
+  background-image: url("minion-background-min.jpg");
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
