@@ -3,8 +3,8 @@ var translateBtn = document.querySelector("#translate-btn")
 var outputText = document.querySelector("#output-text")
 var errorMsg = document.querySelector(".error-msg")
 
-var serverurl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
-// var serverurl ="https://api.funtranslations.com/translate/minion.json"
+// var serverurl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var serverurl ="https://api.funtranslations.com/translate/minion.json"
 
 function  urlAdd(inputurl){
     return serverurl +"?"+"text="+ inputurl
