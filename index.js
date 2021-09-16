@@ -33,6 +33,7 @@ function textdisplaying(){
 translateBtn.addEventListener("click",function(){
    
     if( inputText.value === "" ){
+        errorMsg.style.display = "block"
       errorMsg.innerText = "please type text what you want to translate"
        
     }else{
