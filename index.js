@@ -33,15 +33,17 @@ function textdisplaying(){
 translateBtn.addEventListener("click",function(){
    
     if( inputText.value === "" ){
+        outputText.innerText = ""
         errorMsg.style.display = "block"
-      errorMsg.innerText = "please type text what you want to translate"
+        errorMsg.innerText = "please type text what you want to translate"
        
     }else{
+        errorMsg.style.display = "none"
         inputText.style.color  = "rgb(100, 100, 100)"
         outputText.style.border = "2px solid rgba(34, 34, 194, 0.815)"
         textdisplaying()
     }
-    // textdisplaying()
+
 })
 
 console.log(urlAdd)
