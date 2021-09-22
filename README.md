@@ -1,6 +1,6 @@
 # Minion Translator
 
-    This is a minion fun translation app based on Fun Translation API . Server URL used for getting translations is:
+   This is a minion fun translation app based on Fun Translation API . Server URL used for getting translations is:
 
 # How to use
 
