@@ -10,9 +10,6 @@ function  urlAdd(inputurl){
     return serverurl +"?"+"text="+ inputurl
 }
 
-
-
-
 function textdisplaying(){
     var displayingMsg = inputText.value;
  
@@ -28,13 +25,12 @@ function textdisplaying(){
 
 }
 
-
-
 translateBtn.addEventListener("click",function(){
    
     if( inputText.value === "" ){
         outputText.innerText = ""
         errorMsg.style.display = "block"
+        outputText.style.border = "none"
         errorMsg.innerText = "please type text what you want to translate"
        
     }else{
