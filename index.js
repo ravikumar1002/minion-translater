@@ -20,9 +20,8 @@ function textdisplaying(){
         outputText.innerText = translateText;
         console.log(translateText)
         outputText.scrollIntoView()
-    }
-        )
-
+    })
+    .catch(() => alert("some error occured"))
 }
 
 translateBtn.addEventListener("click",function(){
